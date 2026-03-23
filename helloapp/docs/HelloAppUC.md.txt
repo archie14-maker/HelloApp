@@ -1,4 +1,4 @@
-##UC2:display hello with command line argument 
+##UC3:display hello with command line argument 
 accepts name from command line 
 displays personalized greeting
 default hello world if no output
