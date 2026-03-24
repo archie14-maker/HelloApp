@@ -1,3 +1,5 @@
-#helloapp usecase
-##uc1:display hello world
-print hello world in console
+## UC2: Display Hello with Command-Line Argument
+
+- Accepts name from command line
+- Displays personalized greeting
+- Default: Hello World if no input
