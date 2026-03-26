@@ -1,4 +1,4 @@
-##UC3:display hello with command line argument 
-accepts name from command line 
-displays personalized greeting
-default hello world if no output
+##UC5:display for loops
+uses for each loop to process multiple inputs
+use string builder for effiecent srting buillding 
+defaults to "worlds"
