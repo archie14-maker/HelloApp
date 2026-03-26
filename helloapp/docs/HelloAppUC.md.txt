@@ -1,4 +1,4 @@
-##UC5:display for loops
-uses for each loop to process multiple inputs
-use string builder for effiecent srting buillding 
-defaults to "worlds"
+##UC6:substrings method
+uses substring() to remove trailing delimeter
+cleaner than conditional comma handling
+uses string builder
