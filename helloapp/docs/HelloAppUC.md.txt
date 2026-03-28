@@ -1,4 +1,9 @@
-##UC5:display for loops
-uses for each loop to process multiple inputs
-use string builder for effiecent srting buillding 
-defaults to "worlds"
+\## UC6: Substring Method
+
+
+
+\- Uses substring() to remove trailing delimiter
+
+\- Cleaner than conditional comma handling
+
+\- Uses StringBuilder
