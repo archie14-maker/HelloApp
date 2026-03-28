@@ -1,18 +1,30 @@
+package helloapp;
+
 public class HelloApp {
 
     public static void main(String[] args) {
 
-        // Check if user passed argument
-        String name = "World";
-        if (args.length > 0) {
-            String name = args[0];
-            System.out.println("Hello, " + name + "!");
-        } else {
-            // Default case (same as UC1)
-            System.out.println("Hello, World!");
-            name = args[0];
-        }
-        System.out.println("Hello, " + name + "!");
+        String result;
 
+        // Default case
+        if (args.length == 0) {
+            result = "World";
+        } else {
+            StringBuilder nameBuilder = new StringBuilder();
+
+            // Append all names with ", "
+            for (String name : args) {
+                nameBuilder.append(name).append(", ");
+            }
+
+            // Remove last ", "
+            if (nameBuilder.length() > 0) {
+                result = nameBuilder.substring(0, nameBuilder.length() - 2);
+            } else {
+                result = "World";
+            }
+        }
+
+        System.out.println("Hello, " + result + "!");
     }
 }
