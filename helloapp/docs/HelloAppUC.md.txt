@@ -1,4 +1,5 @@
-##UC3:display hello with command line argument 
-accepts name from command line 
-displays personalized greeting
-default hello world if no output
+## UC4: Display Hello with Multiple Names
+
+- Accepts multiple command-line arguments
+- Joins names using comma separator
+- Defaults to "World" if no input
