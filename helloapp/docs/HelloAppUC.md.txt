@@ -1,4 +1,9 @@
-##UC3:display hello with command line argument 
-accepts name from command line 
-displays personalized greeting
-default hello world if no output
+\## UC5: Enhanced For Loop
+
+
+
+\- Uses for-each loop to process multiple inputs
+
+\- Uses StringBuilder for efficient string building
+
+\- Defaults to "World"
