@@ -1,5 +1,0 @@
-##UC7:string.join()
-uses string.join() to efficiently concencate multiple name 
-app creates 0 or more command line arguments 
-prints a greeting
-
