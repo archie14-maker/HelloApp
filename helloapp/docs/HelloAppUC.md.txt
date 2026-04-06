@@ -1,4 +1,5 @@
-##UC6:substrings method
-uses substring() to remove trailing delimeter
-cleaner than conditional comma handling
-uses string builder
+##UC7:string.join()
+uses string.join() to efficiently concencate multiple name 
+app creates 0 or more command line arguments 
+prints a greeting
+
